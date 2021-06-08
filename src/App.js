@@ -3,6 +3,7 @@ import { PassingProps } from './components/Props/PassingProps' // import nommé
 import ChildrenComponent from './components/ChildrenComponent/ChildrenComponent'
 import MapComponent from './components/MapComponent/MapComponent'
 import ConditionnalRendering from './components/ConditionnalRendering/ConditionnalRendering'
+import Counter from './components/Counter/Counter'
 
 function App() {
   const titleStyle = {
@@ -21,6 +22,7 @@ function App() {
 			<ChildrenComponent>Contenu entre les balises</ChildrenComponent>
 			<MapComponent />
 			<ConditionnalRendering />
+			<Counter />
 		</>
 	)
 }
