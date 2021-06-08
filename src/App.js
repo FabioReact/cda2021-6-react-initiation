@@ -1,6 +1,7 @@
 import styles from './App.module.css' // importé de façon locale
 import { PassingProps } from './components/Props/PassingProps' // import nommé
 import ChildrenComponent from './components/ChildrenComponent/ChildrenComponent'
+import MapComponent from './components/MapComponent/MapComponent'
 
 function App() {
   const titleStyle = {
@@ -17,6 +18,7 @@ function App() {
 			</p>
 			<PassingProps />
 			<ChildrenComponent>Contenu entre les balises</ChildrenComponent>
+			<MapComponent />
 		</>
 	)
 }

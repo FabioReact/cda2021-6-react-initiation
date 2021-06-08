@@ -4,8 +4,8 @@ function ReceivingProps({ name, day, rainy }) {
 	// const rainy = props.rainy
 	// const { name, day, rainy } = props // Object destructuring
 	return (
-		<div class='component' style={{'--color': 'green'}}>
-			<p class='component-name'>Composant: ReceivingProps</p>
+		<div className='component' style={{'--color': 'green'}}>
+			<p className='component-name'>Composant: ReceivingProps</p>
 			<p>Hello {name}!</p>
 			<p>On est le {day} du mois.</p>
 			<p>Pleut-il: {rainy.toString()}</p>
