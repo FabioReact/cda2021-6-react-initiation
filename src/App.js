@@ -2,6 +2,7 @@ import styles from './App.module.css' // importé de façon locale
 import { PassingProps } from './components/Props/PassingProps' // import nommé
 import ChildrenComponent from './components/ChildrenComponent/ChildrenComponent'
 import MapComponent from './components/MapComponent/MapComponent'
+import ConditionnalRendering from './components/ConditionnalRendering/ConditionnalRendering'
 
 function App() {
   const titleStyle = {
@@ -19,6 +20,7 @@ function App() {
 			<PassingProps />
 			<ChildrenComponent>Contenu entre les balises</ChildrenComponent>
 			<MapComponent />
+			<ConditionnalRendering />
 		</>
 	)
 }
